@@ -95,7 +95,6 @@ function Board({ xIsNext, squares, onPlay }) {
   );
 }
 
-
 function calculateWinner(squares) {
   const lines = [
     [0, 1, 2],
